@@ -1,0 +1,6 @@
+.stack-work/
+*.cabal
+*~
+*.swp
+.DS_Store
+days/*/input.txt

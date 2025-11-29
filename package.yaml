@@ -1,0 +1,167 @@
+name:                aoc2025
+version:             0.1.0.0
+license:             BSD3
+author:              "James Gill"
+
+dependencies:
+- base >= 4.7 && < 5
+- containers
+- text
+- split
+- parsec
+- criterion
+- deepseq
+- file-embed
+
+ghc-options:
+- -Wall
+- -O2
+
+library:
+  source-dirs: src
+
+executables:
+  day01:
+    main: Main.hs
+    source-dirs: days/01
+    other-modules: [Day01]
+    dependencies: [aoc2025]
+
+  day02:
+    main: Main.hs
+    source-dirs: days/02
+    other-modules: [Day02]
+    dependencies: [aoc2025]
+
+  day03:
+    main: Main.hs
+    source-dirs: days/03
+    other-modules: [Day03]
+    dependencies: [aoc2025]
+
+  day04:
+    main: Main.hs
+    source-dirs: days/04
+    other-modules: [Day04]
+    dependencies: [aoc2025]
+
+  day05:
+    main: Main.hs
+    source-dirs: days/05
+    other-modules: [Day05]
+    dependencies: [aoc2025]
+
+  day06:
+    main: Main.hs
+    source-dirs: days/06
+    other-modules: [Day06]
+    dependencies: [aoc2025]
+
+  day07:
+    main: Main.hs
+    source-dirs: days/07
+    other-modules: [Day07]
+    dependencies: [aoc2025]
+
+  day08:
+    main: Main.hs
+    source-dirs: days/08
+    other-modules: [Day08]
+    dependencies: [aoc2025]
+
+  day09:
+    main: Main.hs
+    source-dirs: days/09
+    other-modules: [Day09]
+    dependencies: [aoc2025]
+
+  day10:
+    main: Main.hs
+    source-dirs: days/10
+    other-modules: [Day10]
+    dependencies: [aoc2025]
+
+  day11:
+    main: Main.hs
+    source-dirs: days/11
+    other-modules: [Day11]
+    dependencies: [aoc2025]
+
+  day12:
+    main: Main.hs
+    source-dirs: days/12
+    other-modules: [Day12]
+    dependencies: [aoc2025]
+
+benchmarks:
+  bench01:
+    main: Bench.hs
+    source-dirs: days/01
+    other-modules: [Day01]
+    dependencies: [aoc2025]
+
+  bench02:
+    main: Bench.hs
+    source-dirs: days/02
+    other-modules: [Day02]
+    dependencies: [aoc2025]
+
+  bench03:
+    main: Bench.hs
+    source-dirs: days/03
+    other-modules: [Day03]
+    dependencies: [aoc2025]
+
+  bench04:
+    main: Bench.hs
+    source-dirs: days/04
+    other-modules: [Day04]
+    dependencies: [aoc2025]
+
+  bench05:
+    main: Bench.hs
+    source-dirs: days/05
+    other-modules: [Day05]
+    dependencies: [aoc2025]
+
+  bench06:
+    main: Bench.hs
+    source-dirs: days/06
+    other-modules: [Day06]
+    dependencies: [aoc2025]
+
+  bench07:
+    main: Bench.hs
+    source-dirs: days/07
+    other-modules: [Day07]
+    dependencies: [aoc2025]
+
+  bench08:
+    main: Bench.hs
+    source-dirs: days/08
+    other-modules: [Day08]
+    dependencies: [aoc2025]
+
+  bench09:
+    main: Bench.hs
+    source-dirs: days/09
+    other-modules: [Day09]
+    dependencies: [aoc2025]
+
+  bench10:
+    main: Bench.hs
+    source-dirs: days/10
+    other-modules: [Day10]
+    dependencies: [aoc2025]
+
+  bench11:
+    main: Bench.hs
+    source-dirs: days/11
+    other-modules: [Day11]
+    dependencies: [aoc2025]
+
+  bench12:
+    main: Bench.hs
+    source-dirs: days/12
+    other-modules: [Day12]
+    dependencies: [aoc2025]
